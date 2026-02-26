@@ -8,7 +8,6 @@ import {
   Pill,
   ShoppingCart,
   FileText,
-  Users,
   Building2,
   LogOut,
   BarChart3,
@@ -50,7 +49,7 @@ export function Sidebar() {
   return (
     <aside className="w-60 h-screen bg-card border-r border-border fixed left-0 top-0 flex flex-col z-20">
       <div className="h-20 flex items-center px-6 border-b border-border">
-        <div className="font-bold text-xl text-blue-600">PharmaSys</div>
+        <div className="font-bold text-xl text-blue-600">Farmácia</div>
       </div>
 
       <nav className="flex-1 p-4 overflow-y-auto">

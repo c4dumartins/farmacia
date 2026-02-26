@@ -7,7 +7,6 @@ export type UserRole = "pharmacist" | "employee" | "admin" | null;
 export type Screen =
   | "home"
   | "login"
-  | "profile-select"
   | "dashboard-pharma"
   | "manage-medicines"
   | "new-medicine"
@@ -34,7 +33,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [currentScreen, setCurrentScreen] = useState<Screen>("home");
+  const [currentScreen, setCurrentScreen] = useState<Screen>("login");
   const [userRole, setUserRole] = useState<UserRole>(null);
 
   const navigate = (screen: Screen) => {

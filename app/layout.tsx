@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PharmaSys - Sistema de Gestão Farmacêutica",
+  title: "Farmácia - Sistema de Gestão Farmacêutica",
   description: "Controle completo de medicamentos, estoque e atendimentos",
 };
 
